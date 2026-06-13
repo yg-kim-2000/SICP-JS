@@ -1,0 +1,421 @@
+SICP JS – Lesson 1 Notes
+Computational Processes
+A computational process is an abstract entity that:
+Manipulates data.
+Evolves according to a set of rules.
+Is directed by a program.
+Programs are descriptions of computational processes. People create programs to direct how processes operate.
+A correctly functioning computer executes programs precisely and accurately. Because of this, even small programming errors (bugs) can lead to unexpected consequences.
+Well-designed programs are modular, allowing parts to be understood, tested, replaced, and debugged independently.
+
+Abstraction
+A central theme of programming is abstraction: managing complexity by treating complex things as simple units.
+According to John Locke, the mind creates complex ideas through:
+Combining simple ideas into more complex ones.
+Comparing ideas and understanding their relationships.
+Abstracting ideas from specific instances to form general concepts.
+Programming follows the same principles.
+
+The Three Essential Elements of Programming
+Every powerful programming language provides:
+1. Primitive Expressions
+The simplest entities that the language understands.
+Examples:
+Numbers
+Names
+Basic values
+2. Means of Combination
+Ways to build complex expressions from simpler ones.
+Examples:
+Arithmetic expressions
+Function applications
+3. Means of Abstraction
+Ways to name and manipulate complex objects as single units.
+Examples:
+Function definitions
+Variable declarations
+Abstraction allows us to hide details and work at a higher level of understanding.
+
+Functions and Data
+Programming primarily deals with two kinds of elements:
+Data
+The objects we want to manipulate.
+Examples:
+Numbers
+Strings
+Booleans
+Functions
+Descriptions of rules for manipulating data.
+Functions take inputs, perform computations, and produce outputs.
+
+Why JavaScript?
+JavaScript is used in SICP JS because it supports important programming concepts:
+First-class functions
+Lexical scoping
+Functional abstraction
+Dynamic typing
+The goal is not to learn web development, but to use JavaScript as a medium for studying computation and programming principles.
+
+Main Takeaway
+The power of programming comes from building complex systems from simple components through:
+Primitive expressions
+Combination
+Abstraction
+Abstraction is the key tool for managing complexity.
+—----------------------------------------------------------------------------------------------------------------------------
+
+SICP JS – Lesson 1 노트
+계산 과정(Computational Processes)
+계산 과정(computational process)은 다음과 같은 특징을 가진 추상적 개체이다.
+데이터를 조작한다.
+일정한 규칙에 따라 변화하고 발전한다.
+프로그램에 의해 제어된다.
+프로그램은 계산 과정을 설명하는 것이다. 사람들은 계산 과정이 어떻게 동작할지 지시하기 위해 프로그램을 만든다.
+정상적으로 작동하는 컴퓨터는 프로그램을 정확하고 충실하게 실행한다. 따라서 아주 작은 프로그래밍 오류(버그)라도 예상치 못한 결과를 초래할 수 있다.
+잘 설계된 프로그램은 모듈화(modular) 되어 있어 각 부분을 독립적으로 이해하고, 테스트하고, 교체하고, 디버깅할 수 있다.
+
+추상화(Abstraction)
+프로그래밍의 핵심 주제 중 하나는 추상화이다.
+추상화란 복잡한 것을 하나의 단순한 단위처럼 다루어 복잡성을 관리하는 방법이다.
+철학자 **John Locke**에 따르면, 인간의 정신은 다음과 같은 방법으로 복잡한 개념을 형성한다.
+단순한 아이디어들을 결합하여 더 복잡한 아이디어를 만든다.
+아이디어들을 비교하고 그 관계를 이해한다.
+구체적인 사례들로부터 일반적인 개념을 추출한다.
+프로그래밍 역시 이러한 원리를 따른다.
+
+프로그래밍의 세 가지 필수 요소
+모든 강력한 프로그래밍 언어는 다음 세 가지를 제공한다.
+1. 기본 표현식(Primitive Expressions)
+언어가 이해하는 가장 단순한 요소들이다.
+예시:
+숫자(Number)
+이름(Name)
+기본 값(Value)
+
+2. 결합 수단(Means of Combination)
+단순한 표현식을 조합하여 더 복잡한 표현식을 만드는 방법이다.
+예시:
+산술 표현식(Arithmetic Expressions)
+함수 적용(Function Application)
+
+3. 추상화 수단(Means of Abstraction)
+복잡한 객체를 하나의 단위로 이름 붙이고 다룰 수 있게 하는 방법이다.
+예시:
+함수 정의(Function Definitions)
+변수 선언(Variable Declarations)
+추상화를 통해 세부 사항을 숨기고 더 높은 수준에서 문제를 다룰 수 있다.
+
+함수와 데이터(Functions and Data)
+프로그래밍은 주로 두 종류의 요소를 다룬다.
+데이터(Data)
+조작하려는 대상들이다.
+예시:
+숫자(Number)
+문자열(String)
+불리언(Boolean)
+함수(Function)
+데이터를 조작하기 위한 규칙을 설명하는 것이다.
+함수는:
+입력값을 받는다.
+계산을 수행한다.
+결과값을 반환한다.
+
+왜 JavaScript인가?
+SICP JS에서 JavaScript를 사용하는 이유는 다음과 같은 중요한 프로그래밍 개념을 지원하기 때문이다.
+일급 함수(First-class Functions)
+렉시컬 스코프(Lexical Scoping)
+함수형 추상화(Functional Abstraction)
+동적 타입(Dynamic Typing)
+목표는 웹 개발을 배우는 것이 아니라, JavaScript를 계산과 프로그래밍 원리를 학습하기 위한 도구로 사용하는 것이다.
+
+핵심 정리(Main Takeaway)
+프로그래밍의 힘은 단순한 구성 요소들을 이용해 복잡한 시스템을 구축하는 데서 나온다.
+그 핵심 요소는 다음과 같다.
+기본 표현식(Primitive Expressions)
+결합(Combination)
+추상화(Abstraction)
+추상화는 복잡성을 관리하기 위한 가장 중요한 도구이다.
+—----------------------------------------------------------------------------------------------------------------------------
+
+SICP JS Lesson 1 Knowledge Check
+(English & Korean)
+Try answering these without looking at your notes. I've organized them from easy to challenging.
+
+Part 1: Basic Concepts (기본 개념)
+1. What is a computational process?
+계산 과정(Computational Process)이란 무엇인가?
+Answer in one or two sentences.
+
+2. What is the relationship between a program and a computational process?
+프로그램과 계산 과정의 관계는 무엇인가?
+
+3. Why can a small bug cause serious problems?
+작은 버그가 왜 큰 문제를 일으킬 수 있는가?
+
+4. What does it mean for a program to be modular?
+프로그램이 모듈화되어 있다는 것은 무엇을 의미하는가?
+
+Part 2: Abstraction (추상화)
+5. Define abstraction in your own words.
+추상화를 자신의 말로 설명해 보세요.
+
+6. Which of the following is the best example of abstraction?
+다음 중 추상화의 가장 좋은 예는 무엇인가?
+A. Memorizing every line of code in a program
+ B. Using a function called square(x) without caring how it is implemented
+ C. Writing longer code
+ D. Avoiding functions
+Answer: ______
+
+7. According to John Locke, what are the three ways the mind forms complex ideas?
+John Locke에 따르면 정신은 어떤 세 가지 방법으로 복잡한 개념을 형성하는가?
+
+
+
+
+Part 3: The Three Essential Elements (세 가지 필수 요소)
+8. Name the three essential elements of a programming language.
+프로그래밍 언어의 세 가지 필수 요소를 쓰시오.
+
+
+
+
+9. Classify each item.
+각 항목이 어느 범주에 속하는지 분류하세요.
+Item
+Primitive Expression
+Combination
+Abstraction
+42
+?
+?
+?
+3 + 5
+?
+?
+?
+function square(x) { return x * x; }
+?
+?
+?
+
+
+10. Why is abstraction considered powerful?
+왜 추상화가 강력한 개념이라고 여겨지는가?
+
+Part 4: Functions and Data (함수와 데이터)
+11. What are the two major kinds of elements in programming?
+프로그래밍에서 다루는 두 가지 주요 요소는 무엇인가?
+
+
+
+12. Which of the following are data?
+다음 중 데이터에 해당하는 것은?
+A. 10
+B. "hello"
+C. true
+D. function add(x, y) { return x + y; }
+Choose all that apply.
+Answer: ______
+
+13. What are the three steps performed by a function?
+함수가 수행하는 세 단계를 쓰시오.
+
+
+
+
+Part 5: JavaScript in SICP JS (JavaScript와 SICP JS)
+14. Why does SICP JS use JavaScript?
+SICP JS가 JavaScript를 사용하는 이유는 무엇인가?
+
+15. Which feature is NOT mentioned in the notes?
+노트에서 언급되지 않은 기능은 무엇인가?
+A. First-class functions
+B. Lexical scoping
+C. Dynamic typing
+D. Manual memory management
+Answer: ______
+
+Part 6: True or False (O/X)
+16.
+A computer can sometimes ignore instructions in a program.
+컴퓨터는 때때로 프로그램의 명령을 무시할 수 있다.
+True / False
+
+17.
+Functions are descriptions of rules for manipulating data.
+함수는 데이터를 조작하는 규칙에 대한 설명이다.
+True / False
+
+18.
+Abstraction helps us manage complexity.
+추상화는 복잡성을 관리하는 데 도움을 준다.
+True / False
+
+19.
+Primitive expressions are built from simpler expressions.
+기본 표현식은 더 단순한 표현식으로부터 만들어진다.
+True / False
+
+20.
+The main goal of SICP JS is to learn web development.
+SICP JS의 주요 목표는 웹 개발을 배우는 것이다.
+True / False
+
+Challenge Questions (도전 문제)
+21. Explain the following using the three essential elements:
+function double(x) {
+   return x + x;
+}
+
+double(5);
+Identify:
+Primitive expressions
+Means of combination
+Means of abstraction
+
+22. Real-life abstraction
+Give one example of abstraction from everyday life and explain why it is abstraction.
+일상생활에서의 추상화 예시를 하나 들고, 왜 그것이 추상화인지 설명하시오.
+
+23. Short Essay (5–8 sentences)
+Explain why abstraction is considered one of the most important ideas in programming.
+추상화가 프로그래밍에서 가장 중요한 개념 중 하나로 여겨지는 이유를 5~8문장으로 설명하시오.
+—----------------------------------------------------------------------------------------------------------------------------
+
+
+My answers:
+
+A computational process is a process that
+Manipulates data
+Evolves according to the set of rules 
+Is led by a program
+
+계산 과정은 데이터를 조작하고 일정한 규칙에 따라 변화하고 발전하고 프로그램에 의해 제어되는 과정이다.
+
+      2)   A program directs how a computational process operates
+       
+      	프로그램은 계산 과정을 제어한다.
+
+      3)   Because programmes need to be executed accurately and precisely.
+
+왜냐하면 프로그램은 정확하고 충실하게 실행되 한다.
+
+      4)    Modular programmes are the programmes whose parts can be understood, tested,                               
+
+             replaced and debugged independently. 
+
+             프로그램은 모듈화 되어 있어 각 부분을 독립적으로 이해하고, 테스트 하고, 교체하고, 
+
+             디버깅할 할 수 있다.
+
+      5)    An abstraction is a method that allows us to name and manipulate complex objects as  
+
+          single units. 
+
+          추상화란  복잡한 것을 하나의 단순환 단위처럼 다루어 복잡성을 관리하는 방법이다. 
+
+     6)    B
+ 
+      7)   The methods a mind can form complex ideas:   정신은 복잡한 개념을 형성하는 방법
+          
+Combining simple ideas into more complex ones
+단순한 아이디어를 결합해 더 복잡하는 아이디어를 만든다
+Comparing ideas and understanding their relationships
+아이디어들을 비교하고 그들의 관계를 이해한다.
+Abstracting ideas from specific instances to form general concepts. 
+구체적인 사례들로부터 일반적인 개념을 추출한다.
+
+  8)  The three essential parts of a programming language: 프로그래밍 언어의 세 가지 필수 요소 
+Primitive expressions 기본 표현식
+Means of combination 결합 수단
+Means of abstraction 추상화 수단 
+
+  9)  42 - primitive expression 기본 표현식, 3 + 5 - combination 결합,  
+         function square(x) {  
+        return x * x; 
+         } - abstraction 추상화
+
+ 10)  Abstraction allows us to use programmes without understanding how everything works 
+        internally. 추상화 덕분에 우리는 내부적으로 모든 것이 어떻게 작동하는지 이해하지 못해도    
+        프로그램을 사용할 수 있다.
+
+11)   Two major parts of programming: 프로그래밍에서 다루는 두 가지 주요 요소
+Data: 데이터
+Something we want to manipulate 조작하려는 대상들
+Function: 함수
+Descriptions of rules for manipulating data.  데이터를 조작하기 위한 규칙을 설명하는 것이다 
+
+12) A, B, C
+
+13) Functions:                                                       함수는:
+      1) take inputs,                                                 1) 입력값을 받는다.
+      2) perform computations,                                2) 계산을 수행한다.
+      3) and produce output.                                    3) 결과를 반환한다.
+ 
+14) Because JS has important programming concepts: 
+First-class functions
+Lexical scoping
+Functional abstraction
+Dynamic typing
+
+                  SICP JS에서 JavaScript를 사용하는 이유는 다음과 같은 중요한 프로그래밍 개념을                                                                                                                                                                                                                             
+                  지원하기 때문이다.
+                 1) 일급 함수
+                 2) 렉시컬 스코프
+                 3) 함수형 추상화
+                 4) 동적 타입
+    
+                15)  D
+
+                16)  False / 아니다
+               
+                17)  True / 맞다
+ 
+                18)  True / 맞다
+
+                19)  False / 아니다
+
+                20)  False / 아니다
+                
+                21)  Primitive expressions: double, x, 5
+                       Combination: x + x; double(5)
+                       Abstraction: function double(x) {
+                                          return x + x; 
+                       }
+22) Electronic appliances are examples of abstraction in everyday life. We can use a microwave, washing machine, or smartphone without understanding how they work internally. 
+
+전자제품은 일상생활 속 추상화의 예이다. 우리는 전자레인지, 세탁기, 스마트폰의 내부 작동 원리를 몰라도 사용할 수 있다. 
+23) Abstraction is important because it allows us to use complex objects as single units without knowing how they work internally. It helps us manage complexity by hiding unnecessary details. Programmers can focus on solving problems instead of understanding every part of a system. Functions are examples of abstraction because they hide implementation details behind a name. Abstraction makes programs easier to understand, test, and maintain. Without abstraction, large software systems would be extremely difficult to build. 
+                
+추상화는 복잡한 객체가 내부적으로 어떻게 작동하는지 알지 못해도 하나의 단위로 사용할 수 있게 해 주기 때문에 중요하다. 추상화는 불필요한 세부 사항을 숨김으로써 복잡성을 관리하도록 돕는다. 프로그래머는 시스템의 모든 부분을 이해하는 대신 문제 해결에 집중할 수 있다. 함수는 구현 세부 사항을 이름 뒤에 숨기기 때문에 추상화의 예이다. 추상화는 프로그램을 더 이해하기 쉽고 테스트하기 쉽고 유지보수하기 쉽게 만든다. 추상화가 없다면 대규모 소프트웨어 시스템을 구축하는 것은 매우 어려울 것이다. 
+
+What I Learned
+
+- Programs describe computational processes.
+- Abstraction helps manage complexity.
+- Functions are rules for manipulating data.
+
+Difficult Concepts
+
+- The distinction between combination and abstraction.
+
+Real-Life Example
+
+Electronic appliances are examples of abstraction because we can use them without understanding their internal workings.
+
+
+배운 점
+
+- 프로그램은 계산 과정을 설명한다.
+- 추상화는 복잡성을 관리하는 데 도움을 준다.
+- 함수는 데이터를 조작하기 위한 규칙이다.
+
+어려웠던 개념
+
+- 결합(Combination)과 추상화(Abstraction)의 차이점
+
+실생활 예시
+
+전자제품은 추상화의 예이다. 우리는 전자레인지, 세탁기, 스마트폰이 내부적으로 어떻게 작동하는지 이해하지 못해도 사용할 수 있다.
+
