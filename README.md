@@ -1,2 +1,2 @@
-# SICP-JS
-My notes on SICP JS
+# sicp-js-notes
+My notes and exercises while studying SICP JS.
